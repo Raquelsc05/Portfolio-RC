@@ -106,7 +106,7 @@ margin-left: 11rem;
   font-weight: 400;
   font-size: 5rem;
   text-align: left;
-  margin-left: 11rem;
+  margin-left: 14rem;
   margin-bottom: 1rem;
   
  
@@ -116,7 +116,7 @@ margin-left: 11rem;
 font-weight: 200;
 font-size: 2rem;
 
-margin-left: 11rem;
+margin-left: 14rem;
 color: #fa48df;
 
 margin-bottom: 2rem;
@@ -126,7 +126,7 @@ margin-bottom: 2rem;
  .profession h3 {
 
   font-size: 1.7rem;
-  margin-left: 11rem;
+  margin-left: 14rem;
   color: aqua;
  
   margin-bottom: 7rem;
@@ -149,7 +149,7 @@ margin-bottom: 2rem;
   font-size: 38px;
   padding: 12px 33px 13px 33px;
   text-decoration: none;
-  margin-left: 11rem;
+  margin-left: 14rem;
   cursor: pointer;
   margin-bottom: 19rem;
   
@@ -179,7 +179,7 @@ margin-bottom: 2rem;
    background: #4FD1C5;
    border-radius: 1000px;
    padding: 5px;
-   margin-left: 10rem;
+   margin-left: 14rem;
    margin-bottom: 4rem;
    cursor: context-menu;
    
@@ -189,7 +189,7 @@ margin-bottom: 2rem;
 h3 {
   display: grid;
   font-size: 4rem;
-  margin-left: 11rem;
+  margin-left: 14rem;
   margin-bottom: 3rem;
   margin-top: 3rem;
   
@@ -201,7 +201,7 @@ h3 {
    width: 100%;
    max-width: 400px;
    max-height: fit-content;
-   margin-left: 11rem;
+   margin-left: 14rem;
    border: 1px solid #777;
    align-items: center;
    justify-content: center;
@@ -244,7 +244,7 @@ h3 {
   
   display: flex;
    font-size: 4rem;
-   margin-left: 11rem;
+   margin-left: 14rem;
    margin-bottom: 3rem;
    margin-top: 3rem;
 }
@@ -253,7 +253,7 @@ h3 {
 display: flex;
  font-size: 2rem;
  color: rgb(250, 72, 223);
- margin-left: 11rem;
+ margin-left: 14rem;
  margin-bottom: 3rem;
 }
 
@@ -261,7 +261,7 @@ display: flex;
 .contact h3 {
   display: flex;
   font-size: 4rem;
-  margin-left: 11rem;
+  margin-left: 14rem;
   margin-bottom: 3rem;
 }
 
@@ -269,7 +269,7 @@ display: flex;
   display: flex;
   font-size: 2rem;
   color: rgb(250, 72, 223);
-  margin-left: 11rem;
+  margin-left: 14rem;
   margin-bottom: 1.5rem;
 }
 
@@ -294,7 +294,7 @@ text-decoration: none;
   font-size: 38px;
   padding: 12px 33px 13px 33px;
   text-decoration: none;
-  margin-left: 11rem;
+  margin-left: 14rem;
   cursor: pointer;
   margin-bottom: 5rem;
 }
