@@ -1,13 +1,18 @@
-
+/*=============GERAL==============*/
 * {
 margin: 0;
 padding: 0;
 top: 0;
+box-sizing: border-box;
+
+}
+:root {
+
+  font-size: 62.5%; /* 1rem= 10px*/
 }
 html,
 body {
-  height: 100%;
-  width: 100%;
+
   font-family: rodina;
   background-color: black;
   color: white;
@@ -18,9 +23,9 @@ body {
 
 }
 .main-menu-side span h4 {
-  font-size: 2rem;
+  font-size: 3rem;
   color:   aqua;
-
+  margin-inline: auto;
   margin-top: 3rem;
   text-align: center;
   
@@ -28,7 +33,7 @@ body {
 
 .main-menu-side span h5 {
   
-  font-size: 1rem;
+  font-size: 1.5rem;
   color:  rgb(171, 167, 167);
 
   margin-top: 2rem;
@@ -48,7 +53,7 @@ body {
 }
 .main-menu-side  a {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   width: auto;
   padding: 8px 16px;
   background-color:  #141212;
@@ -77,13 +82,14 @@ body {
 }
 /*========home=====================*/
  #home h1 {
-margin-top: 3rem;
+margin-top: 4rem;
 display: flex;
 font-weight: 400;
 font-size: 5rem;
+margin-inline: auto;
 
-text-align: left;
-margin-left: 10rem;
+text-align: center;
+margin-left: 11rem;
 
 }
 
@@ -98,9 +104,9 @@ margin-left: 10rem;
 #home h2 {
   display: flex;
   font-weight: 400;
-  font-size: 4rem;
+  font-size: 5rem;
   text-align: left;
-  margin-left: 10rem;
+  margin-left: 11rem;
   margin-bottom: 1rem;
   
  
@@ -108,9 +114,9 @@ margin-left: 10rem;
 /*=======Section================*/
 .text p {
 font-weight: 200;
-font-size: 1.7rem;
+font-size: 2rem;
 
-margin-left: 10rem;
+margin-left: 11rem;
 color: #fa48df;
 
 margin-bottom: 2rem;
@@ -119,11 +125,11 @@ margin-bottom: 2rem;
 
  .profession h3 {
 
-  font-size: 1.3rem;
-  margin-left: 10rem;
+  font-size: 1.7rem;
+  margin-left: 11rem;
   color: aqua;
  
-  margin-bottom: 2rem;
+  margin-bottom: 7rem;
   
 }
 
@@ -145,7 +151,7 @@ margin-bottom: 2rem;
   text-decoration: none;
   margin-left: 11rem;
   cursor: pointer;
-  margin-bottom: 10rem;
+  margin-bottom: 19rem;
   
 
 
@@ -179,86 +185,91 @@ margin-bottom: 2rem;
    
  
  }
+ 
+h3 {
+  display: grid;
+  font-size: 4rem;
+  margin-left: 11rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  
+ 
+ }
+ .gallery {
+  
+   display: flex;
+   width: 100%;
+   max-width: 400px;
+   max-height: fit-content;
+   margin-left: 11rem;
+   border: 1px solid #777;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 2rem;
+   
+ }
+ 
+ .gallery > div {
+ flex: 1 1 300px;
+ margin: 2rem 2rem 1rem auto;
+ object-fit: cover;
+ min-width: 5px;
+ }
+ .gallery img {
+ display: flex;
+ width: 100%;
+ height: 100%;
+ max-width: 400px;
+ max-height: fit-content;
+ object-fit: cover;
+ object-position: bottom;
+ margin-inline: auto;
+ 
+ }
+ 
+ 
+ .desc {
+  display: flex;
+  text-align: left;
+  padding: 1rem;
+  flex-flow: column;
+  max-width: 100px;
+  max-height: fit-content;
+  font-size: 1.8rem;
+  margin-inline: auto;
+   
+   
+ }
 #about h3 {
   
   display: flex;
-   font-size: 2rem;
-   margin-left: 10rem;
+   font-size: 4rem;
+   margin-left: 11rem;
    margin-bottom: 3rem;
    margin-top: 3rem;
 }
 
 #about p {
 display: flex;
- font-size: 1.7rem;
- color: rgb(250, 72, 223);
- margin-left: 10rem;
- margin-bottom: 3rem;
-}
-
-h3 {
- display: grid;
  font-size: 2rem;
- margin-left: 10rem;
+ color: rgb(250, 72, 223);
+ margin-left: 11rem;
  margin-bottom: 3rem;
- margin-top: 3rem;
- 
-
-}
-.gallery {
- 
-  display: inline-flex;
-  width: 100%;
-  max-width: 400px;
-  max-height: fit-content;
-  margin-left: 11rem;
-  border: 1px solid #777;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 2rem;
 }
 
-.gallery > div {
-flex: 1 1 300px;
-margin: 2rem 2rem 1rem auto;
-object-fit: cover;
-min-width: 5px;
-}
-.gallery img {
-display: inline-flex;
-width: 100%;
-height: 100%;
-max-width: 400px;
-max-height: fit-content;
-object-fit: cover;
-object-position: bottom;
-
-}
-
-
-.desc {
- display: inline-flex;
- text-align: left;
- padding: 1rem;
- flex-flow: column;
- max-width: 100px;
- max-height: fit-content;
-  
-  
-}
 
 .contact h3 {
   display: flex;
-  font-size: 2rem;
-  margin-left: 10rem;
-  margin-bottom: 2.5rem;
+  font-size: 4rem;
+  margin-left: 11rem;
+  margin-bottom: 3rem;
 }
 
 .contact p {
   display: flex;
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: rgb(250, 72, 223);
-  margin-left: 10rem;
+  margin-left: 11rem;
   margin-bottom: 1.5rem;
 }
 
@@ -285,7 +296,7 @@ text-decoration: none;
   text-decoration: none;
   margin-left: 11rem;
   cursor: pointer;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 #contactme .button2:hover {
   background: #3acdf2;
@@ -297,8 +308,9 @@ text-decoration: none;
   text-decoration: none;
 }
 footer {
-margin-bottom: 3rem;
+margin-bottom: 4rem;
 text-align: center;
+font-size: 1.9rem;
 
 }
 
@@ -316,15 +328,4 @@ text-align: center;
   transition: .3s;
   transform: translateY(94%);
 }
-
-
-
-
-    
-  
-    
-
-
-
-
 
