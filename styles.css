@@ -10,9 +10,13 @@ box-sizing: border-box;
 
   font-size: 62.5%; /* 1rem= 10px*/
 }
+html {
+
+  scroll-behavior: smooth;
+}
 html,
 body {
-
+  
   font-family: rodina;
   background-color: black;
   color: white;
@@ -82,14 +86,16 @@ body {
 }
 /*========home=====================*/
  #home h1 {
-margin-top: 4rem;
+padding-top: 4rem;
 display: flex;
 font-weight: 400;
 font-size: 5rem;
 margin-inline: auto;
 
 text-align: center;
-margin-left: 11rem;
+margin-left: 14rem;
+
+width: 37.5rem;
 
 }
 
@@ -198,7 +204,7 @@ h3 {
  .gallery {
   
    display: flex;
-   width: 100%;
+   width: 37.5rem;
    max-width: 400px;
    max-height: fit-content;
    margin-left: 14rem;
@@ -314,10 +320,8 @@ margin-bottom: 5rem;
 text-align: center;
 font-size: 1.9rem;
 justify-content: center;
-margin-left: 14rem;
 
 }
-
 .back-to-top {
   right: 1rem;
   position: fixed;
@@ -332,3 +336,16 @@ margin-left: 14rem;
   transition: .3s;
   transform: translateY(94%);
 }
+
+
+
+
+
+    
+  
+    
+
+
+
+
+
