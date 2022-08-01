@@ -1,26 +1,30 @@
-/* Botão voltar para o topo */
+/*ScrollReveal: Mostrar elementos quando der scroll na página */
 
-var btn = document.querySelector("#back-to-top")
+
+
+
+ScrollReveal({  
+  origin: 'top',
+  distance: '30px',
+  duration: 700,
+  reset: true
+
+}).reveal(`
+#home, 
+#home .image,
+.text, 
+.profession, 
+#call button, #portifolio, #portifolio.img, #portifolio .desc, #skill, 
+#skill button, 
+.contact, 
+#contactme button, footer`);
+
+
+
 
 btn.addEventListener('click', function(){
   Window.scrollTo(0,0)
 })
 
 var btn = $ ('html, body').animate({scrollTop: 0},'slow')
-
-/* ScrollReveal: Mostrar elementos quando der scroll na página */
-const scrollReveal = scrollReveal({
-  origin: 'top',
-  distance: '30px',
-  duration: 700,
-  reset: true
-})
-
-scrollReveal.reveal(
-  `#home .image, #home .text, #home .profession`,
-
-  { interval: 100 }
-)
-
-
 
